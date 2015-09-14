@@ -1,4 +1,4 @@
-Cards = Mongo.Collection("cards");
+Cards = new Mongo.Collection("cards");
 
 Cards.schema = {
   pictures: [String], // pictureIds
